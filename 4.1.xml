@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTf-8"?>
+<VT>
+    <Cliente>
+       <nombre>Alberto</nombre>
+       <apellido>Gonzalez</apellido>
+    </Cliente>
+      <Fechas>
+         <Fecha_inicio>02/02/2023</Fecha_inicio>
+         <Fecha_fin>02/02/2023</Fecha_fin>
+      </Fechas>
+    <Origen>Santiago</Origen>
+    <Destinos>
+         <Nombre_D>Barcelona</Nombre_D>
+         <Nombre_h>Barce_suite</Nombre_h>
+         <Numerodenoches>5_noches</Numerodenoches>
+    </Destinos>
+    <Precios>450€</Precios>
+</VT>
