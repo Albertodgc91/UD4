@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTf-8"?>
+<Ficha>
+    <YO>
+       <nombre>Alberto</nombre>
+       <apellido>Gonzalez</apellido>
+    </YO>
+      <FechasN>
+         <Fecha_inicio>21/08/1991</Fecha_inicio>
+         <edad>32</edad>
+      </FechasN>
+    <Origen>Venezuela</Origen>
+
+   </Ficha>

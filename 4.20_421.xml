@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTf-8"?>
+<!DOCTYPE Hamburgueseria[
+<!ELEMENT Hamburgueseria (nombreC, direccionE, listaP)>
+<!ELEMENT nombreC (nombre,apellido)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT direccionE (direccion)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT listaP (nombreP,precioP,numeroP)>
+<!ELEMENT nombreP (#PCDATA)>
+<!ELEMENT precioP (#PCDATA)>
+<!ELEMENT numeroP (#PCDATA)>
+
+]>
+<Hamburgueseria>
+    <nombreC>
+       <nombre>Alberto</nombre>
+       <apellido>Gonzalez</apellido>
+    </nombreC>
+      <direccionE>
+         <direccion>Calle no casa 7</direccion>
+      </direccionE>
+   <listaP>
+          <nombreP>dedo</nombreP>
+          <precioP>52.2</precioP>
+          <numeroP>1</numeroP>
+   </listaP>
+</Hamburgueseria>

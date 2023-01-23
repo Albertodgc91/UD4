@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTf-8"?>
+<!DOCTYPE Pelicula[
+<!ELEMENT Pelicula (titulos,directores,sinopsis,añoE,actor)>
+<!ELEMENT titulos (titulo)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT directores (director)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT sinopsis (sinopsiss)>
+<!ELEMENT sinopsiss (#PCDATA)>
+<!ELEMENT añoE (añoe)>
+<!ELEMENT añoe (#PCDATA)>
+<!ELEMENT actor (nombreA,rol)>
+<!ELEMENT nombreA (#PCDATA)>
+<!ELEMENT rol (#PCDATA)>
+
+]>
+<Pelicula>
+    
+<titulos>
+    <titulo>la cosa</titulo>
+</titulos>
+
+<directores>
+    <director>mel </director>
+</directores>
+
+<sinopsis>
+    <sinopsiss>es una cosas</sinopsiss>
+</sinopsis>
+
+<añoE>
+ <añoe>1999</añoe>   
+</añoE>
+
+
+
+<actor>
+    <nombreA></nombreA>
+    <rol></rol>
+</actor>
+</Pelicula>

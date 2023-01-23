@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tienda>
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="4.28.xsdx>
+<nombreC>Nombre del viento</nombreC>
+<fecha>12/22/2022</fecha>
+<hora> 12:45</hora>
+<tipo>Fantiasia</tipo>
+</Tienda>

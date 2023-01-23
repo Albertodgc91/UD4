@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTf-8"?>
+<!DOCTYPE validacion[
+<!ELEMENT Cliente (nombre,apellido)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT Fechas (distribucion+)>
+<!ELEMENT zona (#PCDATA)>
+
+
+<!ATTLIST especie estado (sin-peligro | amenazado | extinto) "sin-peligro">
+<!ATTLIST nombre nombre-cientifico CDATA #REQUIRED>
+]>
+<VT>
+    <Cliente>
+       <nombre>Alberto</nombre>
+       <apellido>Gonzalez</apellido>
+    </Cliente>
+      <Fechas>
+         <Fecha_inicio>01/02/2023</Fecha_inicio>
+         <Fecha_fin>05/02/2023</Fecha_fin>
+      </Fechas>
+    <Aeropuerto>Santiago</Aeropuerto>
+    <AeropuertoD>
+         <Nombre_D>Barcelona</Nombre_D>
+    </AeropuertoD>
+</VT>

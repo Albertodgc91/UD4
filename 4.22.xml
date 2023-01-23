@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTf-8"?>
+<!DOCTYPE Facturas[
+<!ELEMENT Facturas (numero,cliente,producto)>
+<!ELEMENT numero (numeros)>
+<!ELEMENT numeros (#PCDATA)>
+<!ELEMENT cliente (nombreC,direccionC,fecha)>
+<!ELEMENT nombreC (#PCDATA)>
+<!ELEMENT direccionC (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT producto (nombreP,numeroP,precioP,subtotal,Iva,total)>
+<!ELEMENT nombreP (#PCDATA)>
+<!ELEMENT precioP (#PCDATA)>
+<!ELEMENT subtotal (#PCDATA)>
+<!ELEMENT Iva (#PCDATA)>
+<!ELEMENT total (#PCDATA)>
+<!ELEMENT numeroP (#PCDATA)>
+]>
+<Facturas>
+    <numero>
+        <numeros>1</numeros>
+    </numero>
+    <cliente>
+       <nombreC>Alberto</nombreC>
+       <direccionC>Calle no casa 7</direccionC>
+       <fecha>21/02/2023</fecha>
+    </cliente>
+      <producto>
+        <nombreP>pala</nombreP>
+        <numeroP>1</numeroP>
+        <precioP>8</precioP>
+        <subtotal>8</subtotal>
+        <Iva>10%</Iva>
+        <total>8.80</total>
+      </producto>
+</Facturas>

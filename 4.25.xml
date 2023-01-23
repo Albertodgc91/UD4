@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTf-8"?>
+<!DOCTYPE Videojuego[
+<!ELEMENT Videojuego (titulos,generos)>
+<!ELEMENT titulos (#PCDATA)>
+<!ELEMENT generos (#PCDATA)>
+
+
+<!ATTLIST titulos titulo CDATA #REQUIRED>
+<!ATTLIST generos genero CDATA #REQUIRED>
+
+]>
+<Videojuego>
+    <titulos titulo="the last of us">
+       
+    </titulos>
+
+    <generos genero="terror">
+         
+    </generos>
+    
+</Videojuego>

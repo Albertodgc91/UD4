@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTf-8"?>
+<!DOCTYPE Billete[
+<!ELEMENT Billete (Cliente,Fechas,Aeropuerto)>
+<!ELEMENT Cliente (nombre,apellido)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT Fechas (Fecha_inicio,Fecha_fin)>
+<!ELEMENT Fecha_inicio (#PCDATA)>
+<!ELEMENT Fecha_fin (#PCDATA)>
+<!ELEMENT Aeropuerto (AeropuertoO,AeropuertoD)>
+<!ELEMENT AeropuertoO (#PCDATA)>
+<!ELEMENT AeropuertoD (#PCDATA)>
+
+]>
+<Billete>
+    <Cliente>
+       <nombre>Alberto</nombre>
+       <apellido>Gonzalez</apellido>
+    </Cliente>
+      <Fechas>
+         <Fecha_inicio>01/02/2023</Fecha_inicio>
+         <Fecha_fin>05/02/2023</Fecha_fin>
+      </Fechas>
+   <Aeropuerto>
+          <AeropuertoO>Santiago</AeropuertoO>
+          <AeropuertoD>Barcelona</AeropuertoD>
+   </Aeropuerto>
+</Billete>
