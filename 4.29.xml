@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Serie>
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="4.29.xsdx>
+<titulo>Friends</titulo>
+<fecha>12/22/1998</fecha>
+<season> 12</season>
+<genero>drama</genero>
+</Serie>

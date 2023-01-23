@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+	<xs:element name="Serie">
+		<xs:complexType >
+			<xs:sequence>
+				<xs:element name="titulo" type="xs:string" />
+				<xs:element name="fecha" type="xs:dateTime" />
+				<xs:element name="season" >
+                  <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="12305"/>
+                      </xs:restriction>
+                  </xs:simpleType>
+                 </xs:element>
+				 <xs:element name="season" >
+					<xs:simpleType>
+						<xs:restriction base="xs:integer">
+						  <xs:maxInclusive value="50"/>
+						</xs:restriction>
+					</xs:simpleType>
+				   </xs:element>
+                <xs:element name="genero">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+								<xs:enumeration value="comedia"/>
+								<xs:enumeration value="drama"/>
+								<xs:enumeration value="Ciensa ficcion"/>
+						 </xs:restriction>
+					</xs:simpleType>
+				</xs:element>	
+                 
+			</xs:sequence>
+
+        </xs:complexType>
+      </xs:element>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+</xs:schema>
+
+
+	
